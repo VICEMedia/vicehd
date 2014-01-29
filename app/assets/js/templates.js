@@ -123,7 +123,7 @@ helpers = this.merge(helpers, Ember.Handlebars.helpers); data = data || {};
 function program1(depth0,data) {
   
   
-  data.buffer.push("\n  <script src=\"http://player.ooyala.com/v3/YjMwNmI4YjU2MGM5ZWRjMzRmMjljMjc5?platform=html5-priority\"></script>\n  <script src=\"http://www.youtube.com/player_api\"></script>\n");
+  data.buffer.push("\n  <script src=\"http://player.ooyala.com/v3/YjMwNmI4YjU2MGM5ZWRjMzRmMjljMjc5?platform=html5-fallback\"></script>\n  <script src=\"http://www.youtube.com/player_api\"></script>\n");
   }
 
 function program3(depth0,data) {
