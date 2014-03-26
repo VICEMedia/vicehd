@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 
-var mongoUri = exports.mongoUri = process.env.MONGOLAB_URI || 'mongodb://localhost/vice_hd_development';
+var mongoUri = exports.mongoUri = process.env.MONGOHQ_URL || 'mongodb://localhost/vice_hd_development';
 
 exports.configure = function () {
   mongoose.connect(mongoUri);
